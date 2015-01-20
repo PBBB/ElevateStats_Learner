@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0057B61A6E85E70072C388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0057B51A6E85E70072C388 /* AppDelegate.swift */; };
+		2B0057B91A6E85E70072C388 /* ElevateStats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B0057B71A6E85E70072C388 /* ElevateStats.xcdatamodeld */; };
+		2B0057BB1A6E85E70072C388 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0057BA1A6E85E70072C388 /* ViewController.swift */; };
+		2B0057BE1A6E85E70072C388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B0057BC1A6E85E70072C388 /* Main.storyboard */; };
+		2B0057C01A6E85E70072C388 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B0057BF1A6E85E70072C388 /* Images.xcassets */; };
+		2B0057C31A6E85E70072C388 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0057C11A6E85E70072C388 /* LaunchScreen.xib */; };
+		2B0057CF1A6E85E70072C388 /* ElevateStatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0057CE1A6E85E70072C388 /* ElevateStatsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B0057C91A6E85E70072C388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B0057A81A6E85E70072C388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B0057AF1A6E85E70072C388;
+			remoteInfo = ElevateStats;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B0057B01A6E85E70072C388 /* ElevateStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElevateStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0057B41A6E85E70072C388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B0057B51A6E85E70072C388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B0057B81A6E85E70072C388 /* ElevateStats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ElevateStats.xcdatamodel; sourceTree = "<group>"; };
+		2B0057BA1A6E85E70072C388 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B0057BD1A6E85E70072C388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B0057BF1A6E85E70072C388 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2B0057C21A6E85E70072C388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2B0057C81A6E85E70072C388 /* ElevateStatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElevateStatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0057CD1A6E85E70072C388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B0057CE1A6E85E70072C388 /* ElevateStatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevateStatsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B0057AD1A6E85E70072C388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0057C51A6E85E70072C388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B0057A71A6E85E70072C388 = {
+			isa = PBXGroup;
+			children = (
+				2B0057B21A6E85E70072C388 /* ElevateStats */,
+				2B0057CB1A6E85E70072C388 /* ElevateStatsTests */,
+				2B0057B11A6E85E70072C388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B0057B11A6E85E70072C388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B0057B01A6E85E70072C388 /* ElevateStats.app */,
+				2B0057C81A6E85E70072C388 /* ElevateStatsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B0057B21A6E85E70072C388 /* ElevateStats */ = {
+			isa = PBXGroup;
+			children = (
+				2B0057B51A6E85E70072C388 /* AppDelegate.swift */,
+				2B0057BA1A6E85E70072C388 /* ViewController.swift */,
+				2B0057BC1A6E85E70072C388 /* Main.storyboard */,
+				2B0057BF1A6E85E70072C388 /* Images.xcassets */,
+				2B0057C11A6E85E70072C388 /* LaunchScreen.xib */,
+				2B0057B71A6E85E70072C388 /* ElevateStats.xcdatamodeld */,
+				2B0057B31A6E85E70072C388 /* Supporting Files */,
+			);
+			path = ElevateStats;
+			sourceTree = "<group>";
+		};
+		2B0057B31A6E85E70072C388 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B0057B41A6E85E70072C388 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B0057CB1A6E85E70072C388 /* ElevateStatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B0057CE1A6E85E70072C388 /* ElevateStatsTests.swift */,
+				2B0057CC1A6E85E70072C388 /* Supporting Files */,
+			);
+			path = ElevateStatsTests;
+			sourceTree = "<group>";
+		};
+		2B0057CC1A6E85E70072C388 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B0057CD1A6E85E70072C388 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B0057AF1A6E85E70072C388 /* ElevateStats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0057D21A6E85E70072C388 /* Build configuration list for PBXNativeTarget "ElevateStats" */;
+			buildPhases = (
+				2B0057AC1A6E85E70072C388 /* Sources */,
+				2B0057AD1A6E85E70072C388 /* Frameworks */,
+				2B0057AE1A6E85E70072C388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElevateStats;
+			productName = ElevateStats;
+			productReference = 2B0057B01A6E85E70072C388 /* ElevateStats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B0057C71A6E85E70072C388 /* ElevateStatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0057D51A6E85E70072C388 /* Build configuration list for PBXNativeTarget "ElevateStatsTests" */;
+			buildPhases = (
+				2B0057C41A6E85E70072C388 /* Sources */,
+				2B0057C51A6E85E70072C388 /* Frameworks */,
+				2B0057C61A6E85E70072C388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B0057CA1A6E85E70072C388 /* PBXTargetDependency */,
+			);
+			name = ElevateStatsTests;
+			productName = ElevateStatsTests;
+			productReference = 2B0057C81A6E85E70072C388 /* ElevateStatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B0057A81A6E85E70072C388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = PBB;
+				TargetAttributes = {
+					2B0057AF1A6E85E70072C388 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					2B0057C71A6E85E70072C388 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 2B0057AF1A6E85E70072C388;
+					};
+				};
+			};
+			buildConfigurationList = 2B0057AB1A6E85E70072C388 /* Build configuration list for PBXProject "ElevateStats" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B0057A71A6E85E70072C388;
+			productRefGroup = 2B0057B11A6E85E70072C388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B0057AF1A6E85E70072C388 /* ElevateStats */,
+				2B0057C71A6E85E70072C388 /* ElevateStatsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B0057AE1A6E85E70072C388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0057BE1A6E85E70072C388 /* Main.storyboard in Resources */,
+				2B0057C31A6E85E70072C388 /* LaunchScreen.xib in Resources */,
+				2B0057C01A6E85E70072C388 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0057C61A6E85E70072C388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B0057AC1A6E85E70072C388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0057BB1A6E85E70072C388 /* ViewController.swift in Sources */,
+				2B0057B91A6E85E70072C388 /* ElevateStats.xcdatamodeld in Sources */,
+				2B0057B61A6E85E70072C388 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0057C41A6E85E70072C388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0057CF1A6E85E70072C388 /* ElevateStatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B0057CA1A6E85E70072C388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B0057AF1A6E85E70072C388 /* ElevateStats */;
+			targetProxy = 2B0057C91A6E85E70072C388 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B0057BC1A6E85E70072C388 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B0057BD1A6E85E70072C388 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B0057C11A6E85E70072C388 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B0057C21A6E85E70072C388 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B0057D01A6E85E70072C388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B0057D11A6E85E70072C388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B0057D31A6E85E70072C388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElevateStats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B0057D41A6E85E70072C388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElevateStats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B0057D61A6E85E70072C388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ElevateStatsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElevateStats.app/ElevateStats";
+			};
+			name = Debug;
+		};
+		2B0057D71A6E85E70072C388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ElevateStatsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElevateStats.app/ElevateStats";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B0057AB1A6E85E70072C388 /* Build configuration list for PBXProject "ElevateStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0057D01A6E85E70072C388 /* Debug */,
+				2B0057D11A6E85E70072C388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B0057D21A6E85E70072C388 /* Build configuration list for PBXNativeTarget "ElevateStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0057D31A6E85E70072C388 /* Debug */,
+				2B0057D41A6E85E70072C388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B0057D51A6E85E70072C388 /* Build configuration list for PBXNativeTarget "ElevateStatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0057D61A6E85E70072C388 /* Debug */,
+				2B0057D71A6E85E70072C388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B0057B71A6E85E70072C388 /* ElevateStats.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B0057B81A6E85E70072C388 /* ElevateStats.xcdatamodel */,
+			);
+			currentVersion = 2B0057B81A6E85E70072C388 /* ElevateStats.xcdatamodel */;
+			path = ElevateStats.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B0057A81A6E85E70072C388 /* Project object */;
+}
